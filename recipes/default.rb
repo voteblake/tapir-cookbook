@@ -50,7 +50,7 @@ application "tapir" do
 	repository "https://github.com/pentestify/tapir.git"
 
 	rails do
-		gems "bundler"
+		gems ["bundler"]
 		
 	end
 

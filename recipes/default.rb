@@ -7,39 +7,39 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package "nmap" 
+package "nmap" do
 	action :install
 end
 
-package "qt4-qmake" 
+package "qt4-qmake" do
 	action :install
 end
 
-package "libnokogiri-ruby1.8" 
+package "libnokogiri-ruby1.8" do
 	action :install
 end
 
-package "libxslt-dev" 
+package "libxslt-dev" do
 	action :install
 end
 
-package "libxml2-dev" 
+package "libxml2-dev" do
 	action :install
 end
 
-package "libqt4-dev" 
+package "libqt4-dev" do
 	action :install
 end
 
-package "libpcap-dev" 
+package "libpcap-dev" do
 	action :install
 end
 
-package "libpq-dev" 
+package "libpq-dev" do
 	action :install
 end
 
-package "libsqlite3-dev" 
+package "libsqlite3-dev" do
 	action :install
 end
 

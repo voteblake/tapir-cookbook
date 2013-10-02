@@ -44,3 +44,14 @@ package "libsqlite3-dev"
 end
 
 include_recipe "mongodb::default"
+
+application "tapir" do
+	path "/var/www/tapir"
+	repository "https://github.com/pentestify/tapir.git"
+
+	rails do
+		gems "bundler"
+		
+	end
+
+end

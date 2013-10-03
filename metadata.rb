@@ -9,3 +9,4 @@ version          '0.1.0'
 depends "mongodb"
 depends "application"
 depends "application_ruby"
+depends "git"
